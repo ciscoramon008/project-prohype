@@ -1,0 +1,94 @@
+.lg-text-bg-image-container {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grow-biz {
+    background-image: url('https://cdn.pixabay.com/photo/2017/07/10/23/43/question-mark-2492009_1280.jpg');
+    height: 70vh;
+    color: white;
+}
+
+.join-us-wrapper {
+    background-image: url('https://cdn.pixabay.com/photo/2015/06/08/15/11/typewriter-801921_1280.jpg');
+    height: 60vh;
+    color: black;
+}
+
+.join-us-wrapper div section p {
+    font-weight: 400;
+}
+
+.join-us-wrapper .btn {
+    width: 200px;
+    color: honeydew;
+    font-weight: 500;
+    background-color: purple;
+    border: none;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 650px) {
+    .join-us-wrapper {
+        height: 45vh;
+    }
+
+    .grow-biz div section p {
+        font-size: 2.6rem;
+    }
+
+    .grow-biz {
+        height: 50vh;
+    }
+
+    .grow-biz .btn {
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+
+    .join-us-wrapper div section p {
+        font-size: 3rem;
+        font-weight: 400;
+    }
+
+    .join-us-wrapper .btn {
+        width: 130px;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .grow-biz {
+        height: 40vh;
+    }
+
+    .grow-biz div section p {
+        font-size: 2rem;
+    }
+
+    .grow-biz .btn {
+        background-color: greenyellow;
+        border: none;
+        color: black;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+
+    .join-us-wrapper {
+        height: 30vh;
+    }
+
+    .join-us-wrapper div section p {
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+
+    .join-us-wrapper .btn {
+        width: 100px;
+        font-size: 1rem;
+    }
+}

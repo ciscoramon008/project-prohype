@@ -1,0 +1,27 @@
+.navbar-nav-link {
+    border-top: 2px solid transparent;
+}
+
+.navbar-nav-link:hover {
+    border-top: 2px solid gray;
+}
+
+.active-nav-link {
+    border-top: 2px solid green;
+}
+
+.active-nav-link:hover {
+    border-top: 2px solid green;
+}
+
+
+@media screen and (max-width: 768px){
+    #header-nav .nav-item{
+        border: none;
+    }
+
+    #header-nav .nav-item:hover{
+        border: none;
+        cursor: pointer;
+    }
+}

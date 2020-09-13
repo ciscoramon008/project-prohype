@@ -1,0 +1,15 @@
+.team-grid{
+    padding: 1rem 0;
+    background-color: #fafafa;
+    border-bottom: 1px solid wheat;
+}
+
+.teamgrid-wide-img{
+    margin: 25px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .services-heading {
+        font-size: 1.7rem;
+    }
+}

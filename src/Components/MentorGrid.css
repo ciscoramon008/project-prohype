@@ -1,0 +1,15 @@
+.mentor-grid {
+    padding: 1rem 0;
+    background-color: #fafafa;
+    border-bottom: 1px solid wheat;
+}
+
+@media screen and (max-width: 768px) {
+    .mentor-grid-item div div p {
+        display: none;
+    }
+
+    .mentor-grid-item:nth-of-type(n + 5) {
+        display: none;
+    }
+}

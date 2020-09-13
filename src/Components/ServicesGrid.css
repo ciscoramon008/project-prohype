@@ -1,0 +1,14 @@
+.services-grid{
+    padding: 1rem 0;
+    background-color: #fafafa;
+    border-bottom: 1px solid wheat;
+}
+
+.service-grid-link {
+    color: black;
+}
+
+.service-grid-link:hover {
+    color: grey;
+    text-decoration: none;
+}
